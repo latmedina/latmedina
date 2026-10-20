@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=800&color=00E5A0&center=true&vCenter=true&width=640&lines=Hola%2C+soy+Luis+%F0%9F%91%8B;Full+Stack+Developer+%C2%B7+Caracas+%F0%9F%87%BB%F0%9F%87%AA;Backend+%C2%B7+Bases+de+datos+%C2%B7+Web;Construyo+cosas+que+usa+gente+real" alt="Hola, soy Luis" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=800&color=00E5A0&center=true&vCenter=true&width=640&lines=Hola%2C+soy+Luis+%F0%9F%91%8B;Full+Stack+Developer+%C2%B7+Caracas+%F0%9F%87%BB%F0%9F%87%AA;Backend+%C2%B7+Bases+de+datos+%C2%B7+Web;Construyo+cosas" alt="Hola, soy Luis" />
 
 </div>
 
 ### `> whoami`
 
-- 🛠️ **Construyo software para negocios reales.** Hice y mantengo el sitio web y la herramienta de presupuestos de una empresa de seguridad electrónica en Venezuela.
+- 🛠️ **Construyo software para negocios.** Hice y mantengo el sitio web y la herramienta de presupuestos de una empresa de seguridad electrónica en Venezuela.
 - 🗄️ **Me gusta meterme en la base de datos.** Escribo lógica de negocio en PostgreSQL: triggers, funciones en PL/pgSQL, vistas analíticas y reportes.
 - 🌐 **Full stack de punta a punta.** He montado proyectos con Django, Ruby on Rails, Spring Boot, Express y Vue, casi siempre trabajando en equipo.
 - 🔐 **Le presto atención a la seguridad**: CSP estricta, 2FA, secretos fuera del código y despliegues automatizados.
