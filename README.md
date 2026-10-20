@@ -13,9 +13,9 @@ Desarrollador full stack en **Caracas, Venezuela** 🇻🇪. Me gusta construir 
 
 ### 🧰 Tecnologías
 
-**Lenguajes:** JavaScript · TypeScript · Python · Ruby · Java · HTML/CSS · SQL
-**Frameworks:** Vue · Express · Ruby on Rails · Spring Boot
-**Datos y despliegue:** MySQL · MongoDB · SQLite · Docker · GitHub Actions
+- **Lenguajes:** JavaScript · TypeScript · Python · Ruby · Java · HTML/CSS · SQL
+- **Frameworks:** Vue · Express · Ruby on Rails · Spring Boot
+- **Datos y despliegue:** MySQL · MongoDB · SQLite · Docker · GitHub Actions
 
 ### 📚 Aprendiendo
 
