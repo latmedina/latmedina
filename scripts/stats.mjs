@@ -115,16 +115,14 @@ function streakSvg(s) {
   const W = 495, H = 195;
   const col = (x, value, label, sub, color, big) => `
     <g transform="translate(${x},0)">
-      <text x="0" y="${big ? 79 : 88}" text-anchor="middle" style="font:700 ${big ? 30 : 28}px ${FONT};fill:${color}" class="fade">${esc(value)}</text>
+      <text x="0" y="${big ? 79 : 88}" text-anchor="middle" style="font:700 ${big ? 30 : 28}px ${FONT};fill:${color}">${esc(value)}</text>
       <text x="0" y="128" text-anchor="middle" style="font:600 14px ${FONT};fill:${big ? color : C.text}">${esc(label)}</text>
       <text x="0" y="150" text-anchor="middle" style="font:400 11px ${FONT};fill:${C.muted}">${esc(sub)}</text>
     </g>`;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Racha de contribuciones de ${USER}">
   <style>
-    .fade { animation: in .8s ease-out both; }
-    .ring { stroke-dasharray: 208; animation: draw 1.2s ease-out .2s both; }
-    @keyframes in { from { opacity: 0; } }
-    @keyframes draw { from { stroke-dashoffset: 208; } }
+    .ring { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 50% { stroke-opacity: .45; } }
   </style>
   <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="10" fill="${C.bg}" stroke="${C.border}"/>
   <text x="20" y="28" style="font:600 13px ${MONO};fill:${C.accent}">&gt; git log --streak</text>
@@ -147,7 +145,7 @@ function langsSvg(langs) {
   let x = barX;
   const segs = top.map(([name, v], i) => {
     const w = Math.max(2, (v.size / totalAll) * barW);
-    const seg = `<rect x="${x.toFixed(1)}" y="${barY}" width="${w.toFixed(1)}" height="10" fill="${v.color}" class="grow" style="animation-delay:${i * 0.12}s"/>`;
+    const seg = `<rect x="${x.toFixed(1)}" y="${barY}" width="${w.toFixed(1)}" height="10" fill="${v.color}"/>`;
     x += w;
     return seg;
   }).join('');
@@ -155,7 +153,7 @@ function langsSvg(langs) {
     const colX = i % 2 === 0 ? 24 : 260;
     const rowY = 92 + Math.floor(i / 2) * 30;
     const pct = ((v.size / totalAll) * 100).toFixed(1);
-    return `<g transform="translate(${colX},${rowY})" class="fade" style="animation-delay:${0.3 + i * 0.1}s">
+    return `<g transform="translate(${colX},${rowY})">
       <circle cx="6" cy="-4" r="6" fill="${v.color}"/>
       <text x="20" y="0" style="font:600 13px ${FONT};fill:${C.text}">${esc(name)}</text>
       <text x="200" y="0" text-anchor="end" style="font:400 12px ${MONO};fill:${C.muted}">${pct}%</text>
@@ -163,16 +161,14 @@ function langsSvg(langs) {
   }).join('');
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Lenguajes más usados por ${USER}">
   <style>
-    .fade { animation: in .6s ease-out both; }
-    .grow { transform-origin: left; transform-box: fill-box; animation: grow .8s ease-out both; }
-    @keyframes in { from { opacity: 0; } }
-    @keyframes grow { from { transform: scaleX(0); } }
+    .shine { animation: shine 3s ease-in-out infinite; }
+    @keyframes shine { 0%, 100% { opacity: 0; transform: translateX(0); } 50% { opacity: .35; transform: translateX(${barW - 60}px); } }
   </style>
   <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="10" fill="${C.bg}" stroke="${C.border}"/>
   <text x="20" y="28" style="font:600 13px ${MONO};fill:${C.accent}">&gt; lenguajes --top</text>
   <clipPath id="bar"><rect x="${barX}" y="${barY}" width="${barW}" height="10" rx="5"/></clipPath>
   <rect x="${barX}" y="${barY}" width="${barW}" height="10" rx="5" fill="${C.border}"/>
-  <g clip-path="url(#bar)">${segs}</g>
+  <g clip-path="url(#bar)">${segs}<rect x="${barX}" y="${barY}" width="60" height="10" fill="#ffffff" class="shine"/></g>
   ${items}
   <text x="${W - 14}" y="${H - 10}" text-anchor="end" style="font:400 9px ${FONT};fill:${C.muted}">repos públicos · actualizado ${fmt(new Date().toISOString().slice(0, 10))}</text>
 </svg>`;
