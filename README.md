@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/header.svg" width="100%" alt="latmedina · full stack developer" />
+
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=800&color=00E5A0&center=true&vCenter=true&width=640&lines=Hola%2C+soy+Luis+%F0%9F%91%8B;Full+Stack+Developer+%C2%B7+Caracas+%F0%9F%87%BB%F0%9F%87%AA;Backend+%C2%B7+Bases+de+datos+%C2%B7+Web;Construyo+cosas" alt="Hola, soy Luis" />
 
 </div>
@@ -10,6 +12,13 @@
 - 🗄️ **Me gusta meterme en la base de datos.** Escribo lógica de negocio en PostgreSQL: triggers, funciones en PL/pgSQL, vistas analíticas y reportes.
 - 🌐 **Full stack de punta a punta.** He montado proyectos con Django, Ruby on Rails, Spring Boot, Express y Vue, casi siempre trabajando en equipo.
 - 🔐 **Le presto atención a la seguridad**: CSP estricta, 2FA, secretos fuera del código y despliegues automatizados.
+
+### `> git log --stats`
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/latmedina/latmedina/output/streak.svg" width="49%" alt="Racha de contribuciones" />
+  <img src="https://raw.githubusercontent.com/latmedina/latmedina/output/langs.svg" width="49%" alt="Lenguajes más usados" />
+</p>
 
 ### `> stack --list`
 
@@ -70,3 +79,13 @@
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:latmedina955@gmail.com)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/latmedina/)
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/latmedina/latmedina/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/latmedina/latmedina/output/snake.svg" />
+  <img alt="Culebrita comiéndose el gráfico de contribuciones" src="https://raw.githubusercontent.com/latmedina/latmedina/output/snake-dark.svg" width="100%" />
+</picture>
+
+<sub>🐍 La culebrita, la racha y los lenguajes se regeneran solos todos los días con [GitHub Actions](.github/workflows/perfil.yml).</sub>

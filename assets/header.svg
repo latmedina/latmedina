@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="170" viewBox="0 0 900 170" role="img" aria-label="latmedina · full stack developer">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00E5A0"/>
+      <stop offset="0.5" stop-color="#00B4D8"/>
+      <stop offset="1" stop-color="#7B61FF"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="900" height="170" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .w1 { animation: drift 9s linear infinite; }
+    .w2 { animation: drift 14s linear infinite reverse; }
+    .w3 { animation: drift 20s linear infinite; }
+    @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-900px); } }
+    .title { font: 700 44px 'Fira Code', 'JetBrains Mono', Consolas, monospace; fill: #ffffff; letter-spacing: 1px; }
+    .sub { font: 500 17px 'Fira Code', 'JetBrains Mono', Consolas, monospace; fill: #CFFFEF; }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="900" height="170" fill="#0D1117"/>
+    <rect width="900" height="170" fill="url(#g)" opacity="0.92"/>
+    <g class="w3" opacity="0.18" fill="#ffffff">
+      <path d="M0 120 Q 112 90 225 120 T 450 120 T 675 120 T 900 120 T 1125 120 T 1350 120 T 1575 120 T 1800 120 V170 H0 Z"/>
+    </g>
+    <g class="w2" opacity="0.25" fill="#0D1117">
+      <path d="M0 135 Q 150 110 300 135 T 600 135 T 900 135 T 1200 135 T 1500 135 T 1800 135 V170 H0 Z"/>
+    </g>
+    <g class="w1" opacity="0.55" fill="#0D1117">
+      <path d="M0 150 Q 75 135 150 150 T 300 150 T 450 150 T 600 150 T 750 150 T 900 150 T 1050 150 T 1200 150 T 1350 150 T 1500 150 T 1650 150 T 1800 150 V170 H0 Z"/>
+    </g>
+    <text x="450" y="78" text-anchor="middle" class="title">&lt;latmedina /&gt;</text>
+    <text x="450" y="110" text-anchor="middle" class="sub">full stack developer · caracas, venezuela<tspan class="cursor"> ▍</tspan></text>
+  </g>
+</svg>
