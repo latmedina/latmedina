@@ -27,7 +27,6 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -36,7 +35,6 @@
 **Frameworks**
 
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Rails](https://img.shields.io/badge/Rails-CC0000?style=for-the-badge&logo=rubyonrails&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
@@ -69,11 +67,6 @@
 | 🎨 [**Artlink**](https://github.com/latmedina/Artlink) | Marketplace de arte por encargo, con roles, calificaciones y autenticación en dos pasos. | Ruby on Rails 8 · Hotwire · RSpec |
 | 🧵 [**Taller El Punto**](https://github.com/latmedina/proyecto) | Gestión de cursos, horarios e inscripciones para un taller de costura. Proyecto en equipo. | Vue 3 · Spring Boot · MySQL |
 | 😂 [**chistes-api**](https://github.com/latmedina/chistes-api) | API REST que mezcla APIs públicas de chistes con una colección propia. | Node.js · Express · MongoDB |
-
-### `> cat ahora.txt`
-
-- 📚 Haciendo [Full Stack Open](https://github.com/latmedina/fullstackopen) (Universidad de Helsinki): React, Node y GraphQL.
-- 🚀 Buscando hackathons y proyectos donde construir algo útil rápido y en equipo.
 
 ### `> contacto`
 
