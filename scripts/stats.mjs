@@ -121,10 +121,10 @@ function streakSvg(s) {
     </g>`;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Racha de contribuciones de ${USER}">
   <style>
-    .fade { opacity: 0; animation: in .8s ease-out forwards; }
-    .ring { stroke-dasharray: 208; stroke-dashoffset: 208; animation: draw 1.2s ease-out .2s forwards; }
-    @keyframes in { to { opacity: 1; } }
-    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .fade { animation: in .8s ease-out both; }
+    .ring { stroke-dasharray: 208; animation: draw 1.2s ease-out .2s both; }
+    @keyframes in { from { opacity: 0; } }
+    @keyframes draw { from { stroke-dashoffset: 208; } }
   </style>
   <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="10" fill="${C.bg}" stroke="${C.border}"/>
   <text x="20" y="28" style="font:600 13px ${MONO};fill:${C.accent}">&gt; git log --streak</text>
@@ -163,10 +163,10 @@ function langsSvg(langs) {
   }).join('');
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Lenguajes más usados por ${USER}">
   <style>
-    .fade { opacity: 0; animation: in .6s ease-out forwards; }
-    .grow { transform-origin: left; transform: scaleX(0); animation: grow .8s ease-out forwards; transform-box: fill-box; }
-    @keyframes in { to { opacity: 1; } }
-    @keyframes grow { to { transform: scaleX(1); } }
+    .fade { animation: in .6s ease-out both; }
+    .grow { transform-origin: left; transform-box: fill-box; animation: grow .8s ease-out both; }
+    @keyframes in { from { opacity: 0; } }
+    @keyframes grow { from { transform: scaleX(0); } }
   </style>
   <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="10" fill="${C.bg}" stroke="${C.border}"/>
   <text x="20" y="28" style="font:600 13px ${MONO};fill:${C.accent}">&gt; lenguajes --top</text>
