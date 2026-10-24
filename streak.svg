@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="Racha de contribuciones de latmedina">
+  <style>
+    .ring { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 50% { stroke-opacity: .45; } }
+  </style>
+  <rect x="0.5" y="0.5" width="494" height="194" rx="10" fill="#0D1117" stroke="#30363D"/>
+  <text x="20" y="28" style="font:600 13px 'Fira Code', 'JetBrains Mono', Consolas, monospace;fill:#00E5A0">&gt; git log --streak</text>
+  <line x1="165" y1="45" x2="165" y2="165" stroke="#30363D"/>
+  <line x1="330" y1="45" x2="330" y2="165" stroke="#30363D"/>
+  
+    <g transform="translate(82,0)">
+      <text x="0" y="88" text-anchor="middle" style="font:700 28px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#E6EDF3">252</text>
+      <text x="0" y="128" text-anchor="middle" style="font:600 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#E6EDF3">Contribuciones</text>
+      <text x="0" y="150" text-anchor="middle" style="font:400 11px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#8B949E">desde 10 ago 2022</text>
+    </g>
+  <circle cx="247" cy="68" r="33" fill="none" stroke="#30363D" stroke-width="5"/>
+  <circle cx="247" cy="68" r="33" fill="none" stroke="#00E5A0" stroke-width="5" class="ring" transform="rotate(-90 247 68)"/>
+  <g>
+    <g transform="translate(247,0)">
+      <text x="0" y="79" text-anchor="middle" style="font:700 30px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#00E5A0">1</text>
+      <text x="0" y="128" text-anchor="middle" style="font:600 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#00E5A0">Racha actual</text>
+      <text x="0" y="150" text-anchor="middle" style="font:400 11px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#8B949E">23 oct 2026</text>
+    </g></g>
+  
+    <g transform="translate(412,0)">
+      <text x="0" y="88" text-anchor="middle" style="font:700 28px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#E6EDF3">5</text>
+      <text x="0" y="128" text-anchor="middle" style="font:600 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#E6EDF3">Racha más larga</text>
+      <text x="0" y="150" text-anchor="middle" style="font:400 11px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#8B949E">22 jun – 26 jun 2025</text>
+    </g>
+  <text x="481" y="185" text-anchor="end" style="font:400 9px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#8B949E">actualizado 24 oct 2026</text>
+</svg>
